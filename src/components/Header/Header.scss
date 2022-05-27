@@ -1,0 +1,9 @@
+.header {
+  height: 80px;
+  background-color: #000000;
+  display: flex;
+
+  &__logo {
+    margin: 8px 32px;
+  }
+}
