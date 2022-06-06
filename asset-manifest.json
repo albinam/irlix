@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/irlix/static/css/main.7a8ab336.css",
+    "main.css": "/irlix/static/css/main.3dfb882c.css",
     "main.js": "/irlix/static/js/main.cf1c2e52.js",
     "static/media/logo.svg": "/irlix/static/media/logo.a76e3b974fa5dd0668e903b4e697297e.svg",
     "index.html": "/irlix/index.html",
-    "main.7a8ab336.css.map": "/irlix/static/css/main.7a8ab336.css.map",
+    "main.3dfb882c.css.map": "/irlix/static/css/main.3dfb882c.css.map",
     "main.cf1c2e52.js.map": "/irlix/static/js/main.cf1c2e52.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a8ab336.css",
+    "static/css/main.3dfb882c.css",
     "static/js/main.cf1c2e52.js"
   ]
 }
