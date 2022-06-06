@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./List.scss";
 
 function List() {
@@ -14,7 +14,12 @@ function List() {
             alert("Данные введены некорректно");
         }
     }
-    itemsList.sort((a, b) => parseInt(a.id) > parseInt(b.id) ? 1 : -1)
+
+    useEffect(() => {
+        itemsList.sort((a, b) => parseInt(a.id) > parseInt(b.id) ? 1 : -1)
+    }, [itemsList]);
+
+
     return (
         <div className="list">
             <div className="list__left-block">
