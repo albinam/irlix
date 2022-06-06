@@ -2,7 +2,9 @@
   display: flex;
   background-color: #737373;
   height: 160px;
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
 
   &__logo{
     margin: 32px 48px;
